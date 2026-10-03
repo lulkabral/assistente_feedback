@@ -1,6 +1,6 @@
 # Assistente de Feedback Textual 
 
-Um assistente pedagógico inteligente construído em Python que usa a API do Groq (modelo Meta Llama 3) para analisar textos, contar métricas e dar feedback gramatical detalhado.
+Um assistente pedagógico inteligente construído em Python que usa a API do Groq (modelo openai/gpt-oss-120b) para analisar textos, contar métricas e dar feedback gramatical detalhado.
 
 Atualmente funcionando via terminal, o projeto está em transição para se tornar uma aplicação web interativa com um avatar visual focado no apoio direto aos alunos.
 
@@ -10,7 +10,7 @@ Atualmente funcionando via terminal, o projeto está em transição para se torn
 * **Sugestões Estilísticas:** Recomendações de vocabulário e estrutura de frases para melhoria contínua.
 * **Segurança:** Gestão de credenciais isolada e protegida através de variáveis de ambiente (.env).
 
-## Roadmap e Próximos Passos 🚀
+## Roadmap e Próximos Passos 
 - [ ] **Migração Back-end:** Transformar o script Python em uma API web usando FastAPI e Uvicorn.
 - [ ] **Interface Front-end:** Construir a interface visual no navegador usando React + Vite.
 - [ ] **Agente Visual:** Desenhar e integrar um mascote/avatar interativo para guiar a experiência de correção.
